@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Speedy Framework</title>
+    <link rel="stylesheet" href="css/app.css">
+    <style>
+        #header{
+            //position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #fff;
+            width: 100%;
+        }
+        .banner{
+            background: url(img/server.jpg);
+            -webkit-background-size: cover;
+            background-size: cover;
+            height: 400px;
+        }
+        .shadow{
+          box-shadow: 0 0 26px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header class="nav" id="header">
+        <div class="nav-logo">
+           <a href="#">Speedy</a>
+        </div><br>
+        <ul class="nav-menu">
+            <a href="#type">
+                <ul class="nav-item">type</ul>
+            </a>
+            <a href="#grid">
+                <ul class="nav-item">grid</ul>
+            </a>
+            <a href="#rest">
+                <ul class="nav-item">rest</ul>
+            </a>
+        </ul>
+    </header>
+    <section class="header banner"></section>
+    <section class="header full-screen" id="type">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>h1: HELLO</h1>
+                    <h2>h2: HELLO</h2>
+                    <h3>h3: HELLO</h3>
+                    <h4>h4: HELLO</h4>
+                    <h5>h5: HELLO</h5>
+                    <h6>h6: HELLO</h6>
+                </div>
+                <div class="col">
+                    <p>P: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores repellat fugit dicta est consectetur ut repellendus iure, commodi deserunt. Praesentium rem dolores omnis, quam ratione ipsam, nam quisquam impedit ullam id. Expedita nam beatae vitae, ad non cupiditate facere ut in dicta excepturi harum explicabo, velit soluta nesciunt commodi quia deleniti culpa provident minus tenetur sequi sapiente, quae corporis. Praesentium repellendus provident aut nisi, eos fuga eveniet libero reprehenderit rerum ullam, atque repudiandae nesciunt officia vel animi quo incidunt, quod. Sequi delectus porro tempora quam eum, nam maiores dolorem necessitatibus eius sunt hic unde nulla dolorum labore doloribus, facilis cum!</p>
+                    <p><strong><em>this is stronger emphasis text</em></strong></p>
+                    <p><b>this is bold text</b></p>
+                    <p><em>this is emphasis text</em></p>
+                    <p><i>this is italic text</i></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <ul>
+                        <li>List Items 1</li>
+                        <li>List Items 2</li>
+                        <li>List Items 3</li>
+                        <li>List Items 4</li>
+                        <li>List Items 5</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ol>
+                        <li>List Items 1</li>
+                        <li>List Items 2</li>
+                        <li>List Items 3</li>
+                        <li>List Items 4</li>
+                        <li>List Items 5</li>
+                    </ol>
+                </div>
+                <div class="col">
+                    <a href="#">this is a link</a><br>
+                    <a href="#"><button>This is a button</button></a><br>
+                    <a href="#"><button class="outline">This is a button</button></a>
+                </div>
+                <div class="col">
+                    Name
+                    <input type="text" name="name" value="name">
+                    Email
+                    <input type="email" name="email" value="email">
+                    Password
+                    <input type="password" name="password" value="password">
+                    <button type="submit" value="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="header full-screen" id="grid"></section>
+    <section class="header full-screen" id="rest"></section>
+    <footer></footer>
+</body>
+</html>

@@ -1,0 +1,30 @@
+button, [type=submit] 
+  padding: 1.1rem 3.5rem
+  margin: 1rem 0
+  background: $first-color
+  color: $text-light
+  border-radius: 2px
+  border: none
+  font-size: 1.3rem
+  transition: all .2s ease
+
+button.outline, [type=submit].outline 
+  padding: 1.1rem 3.5rem
+  background: none
+  color: $text-dark
+  border: 1.5px solid $first-color
+
+button:hover, [type=submit]:hover 
+  background: $first-hover
+
+button.outline:hover, [type=submit].outline:hover 
+  background: none
+  border: 1.5px solid $first-hover
+  color: $text-dark
+
+button:focus, [type=submit]:focus 
+  outline: none
+
+button:active, [type=submit]:active 
+  transform: scale(.99)
+
